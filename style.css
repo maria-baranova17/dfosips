@@ -1,0 +1,356 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: rgb(235, 231, 231);
+    align-items: center;
+    z-index: 1;
+}
+
+.menu {
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo {
+    font: 700 24px/33px 'Nunito', sans-serif;
+    color: #614d4d;
+    padding-left: 145px;
+}
+
+.link {
+    font: 400 16px/40px 'DM Sans', sans-serif;
+    color: #6f4f4f;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #000000;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    text-decoration: none;
+    font: 400 14px/18px 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    background: #066F14;
+    border-radius: 6px;
+    padding: 16px 32px;
+    cursor: pointer;
+    vertical-align: center;
+}
+
+.button:active {
+    background: #03480c;
+}
+
+.button:hover {
+    padding: 18px 34px;
+    font-size: 16px;
+}
+
+.button__menu {
+    text-decoration: none;
+    font: 400 14px/18px 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    background: #36ab45;
+    border-radius: 6px;
+    padding: 16px 32px;
+    cursor: pointer;
+    vertical-align: center;
+}
+
+.button__menu:hover {
+    padding: 18px 34px;
+}
+
+.button__products {
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 145px;
+}
+
+.main__inf {
+    max-width: 550px;
+    margin-right: 120px;
+}
+
+.title {
+    font: 700 72px/92px 'Nunito', sans-serif;
+    color: #1A1A1A;
+    margin-bottom: 25px;
+}
+
+.description {
+    font: 400 14px/18px 'DM Sans', sans-serif;
+    color: #4A4A4A;
+    margin-bottom: 40px;
+}
+
+.description:nth-child(3n) {
+    margin-bottom: 15px;
+}
+
+.addition {
+    display: flex;
+    justify-content: center;
+    margin: 125px 0 150px 145px;
+}
+
+.subtitle {
+    font: 700 36px/49px 'Nunito', sans-serif;
+    color: #1A1A1A;
+    margin-right: 80px;
+}
+
+.add_images {
+    display: flex;
+    gap: 45px;
+}
+
+.add {
+    display: table;
+    max-width: 500px;
+}
+
+.arrow:after {
+    content: "\f178";
+    margin-left: 8px;
+    font-family: FontAwesome;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+}
+
+.cont__img {
+    box-shadow: -70px -40px 0px 0px #066F14;
+    margin-right: 80px;
+}
+
+.cont__inf {
+    width: 500px;
+}
+
+.link__accent {
+    font: 500 18px/23px 'DM Sans', sans-serif;
+    color: #066F14;
+    text-decoration: none;
+}
+
+.product__links {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.products {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.products__menu {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 40px;
+}
+
+.products__links {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.product {
+    text-align: left;
+    width: 280px;
+    padding-left: 30px;
+    background: #E2ECE4;
+    padding-top: 15px;
+}
+
+.product:nth-child(2n) {
+    background: #F0EBE6;
+}
+
+.product__name {
+    font: 600 24px/28px 'Nunito', sans-serif;
+    color: #1A1A1A;
+}
+
+.content {
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+    margin-left: 145px;
+}
+
+.about__opinion {
+    width: 600px;
+    background-color: #066F14;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 0;
+}
+
+.about__content {
+    max-width: 560px;
+}
+
+.expert {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.expert__name {
+    font: 600 18px/25px 'Nunito', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.expert__img {
+    width: 80px;
+    height: 80px;
+    padding: 20px 10px 0 0;
+}
+
+.expert__description {
+    font: 16px/20px 'DM Sans', sans-serif;
+    color: #ECECEC;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.quotation {
+    width: 17px;
+    height: 31px;
+    padding-left: 6px;
+}
+
+.marks {
+    margin-left: 315px;
+    margin-top: 20px;
+}
+
+.subscribe {
+    width: 1090px;
+    margin-top: 165px;
+    margin-left: 200px;
+    background: #DFFFE3;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.subscribe__content {
+    max-width: 520px;
+    padding: 60px 0 60px 60px;
+}
+
+.subscribe__form {
+    padding: 8px 8px 8px 20px;
+    width: 400px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.feedback {
+    display: flex;
+}
+
+.follow {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer__title {
+    font: 700 24px/31px 'DM Sans', sans-serif;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.footer__about {
+    max-width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 145px;
+    padding-right: 145px;
+    margin-top: 130px;
+}
+
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.subscribe__cont {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram__photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inst_hov {
+
+    align-items: center;
+    width: 230px;
+    height: 240px;
+    position: absolute;
+    background-color: rgba(36, 34, 35, 0);
+    opacity: 0;
+    transition: background-color 1s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.inst_hov:hover {
+    background-color: rgba(36, 36, 35, 0.5);
+    opacity: 1;
+}
+
+.inst__cont {
+    display: flex;
+}
+
+.img_hov {
+    padding: 87px 81px;
+}
